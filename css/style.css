@@ -1,0 +1,86 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url("https://images.unsplash.com/photo-1421757295538-9c80958e75b0?q=80&fm=jpg&s=b309d6983c9e14955b27e594f84a8b1e");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  color: #fff;
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 { 
+  font-family: Geneva, sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 28px;
+}
+
+.about-me, .portfolio, .contact {
+    font-family: 'Shift', sans-serif;
+    padding: 30px 20px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.about-me p {
+    font-size: 22px;
+}
+
+.about-me li {
+    font-size: 18px;
+}
+
+.about-me img {
+    
+  margin: auto;
+  border-radius: 25%;
+  height: 400px;
+}
+
+.portfolio .thumbnail {
+  padding: 20px;
+  text-align: center;
+}
+
+.portfolio img {
+  border-radius: 0%;
+}
+
+.contact {
+  background-color: #f7f7f7;
+}
+
+.contact h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact a {
+  color: #00b0ff;
+}
+
+.contact p {
+  padding: 10px 0px;
+  font-size: 14px;
+}
