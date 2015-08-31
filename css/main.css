@@ -23,6 +23,7 @@ nav a {
 .jumbotron h1 { 
   font-family: Geneva, sans-serif;
   font-weight: bold;
+  text-shadow: black 2px 2px;
 }
 
 .jumbotron p {
