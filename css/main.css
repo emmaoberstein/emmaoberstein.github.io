@@ -12,6 +12,7 @@ nav a {
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .jumbotron .container {
