@@ -16,7 +16,7 @@
 
 
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav id="myNav" class="navbar navbar-default navbar-fixed-top">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
@@ -28,15 +28,14 @@
     <!-- Collect the content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li><a data-toggle="collapse" data-target=".navbar-collapsible-menu" id="s1" class="nav-button" onclick="jumpToSection(event, this.id)" href="#">About</a></li>
+            <li data-toggle="collapse" data-target=".navbar-collapsible-menu" id="s2" class="nav-button" onclick="jumpToSection(event, this.id)" href="#"><a href="#portfolio">Portfolio</a></li>
+            <li data-toggle="collapse" data-target=".navbar-collapsible-menu" id="s3" class="nav-button" onclick="jumpToSection(event, this.id)" href="#"><a href="#contact">Contact</a></li>
         </ul> 
       </div>
     </nav>
 
-    <a name="Home"></a>
+    <a name="home"></a>
     <div class="jumbotron">
       <div class="container">
         <div class="row">
@@ -48,8 +47,8 @@
       </div>
     </div>
 
-    <a name="About"></a>
-    <div class="about-me">
+    <a name="about"></a>
+    <div id="about">
       <div class="container">
         <h2>About Me</h2>
         <div class="row">
@@ -72,8 +71,8 @@
       </div>
     </div>
     
-    <a name="Portfolio"></a>
-    <div class="portfolio">
+    <a name="portfolio"></a>
+    <div id="portfolio">
       <div class="container">
         <h2>Portfolio - Development</h2>
         <div class="row">
@@ -184,8 +183,8 @@
       </div>
     </div>
 
-    <a name="Contact"></a>
-    <div class="contact">
+    <a name="contact"></a>
+    <div id="contact">
       <div class="container">
         <h2>Contact Me</h2>
         <div class="row">
@@ -208,5 +207,6 @@
 
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

@@ -45,7 +45,7 @@ body {
   font-size: 28px;
 }
 
-.about-me, .portfolio, .contact {
+#about, .portfolio, .contact {
     padding: 20px;
 }
 
@@ -58,47 +58,47 @@ h2 {
     font-weight: bold;
 }
 
-.about-me p {
+#about p {
     font-size: 22px;
 }
 
-.about-me li {
+#about li {
     font-size: 18px;
 }
 
-.about-me img {
+#about img {
     
   margin: auto;
   border-radius: 25%;
 }
 
-.portfolio .row {
+#portfolio .row {
   padding: 20px 0px;
 }
 
-.portfolio .thumbnail {
+#portfolio .thumbnail {
     padding: 20px;
     text-align: center;
 }
 
-.portfolio img {
+#portfolio img {
   border-radius: 0%;
 }
 
-.contact {
+#contact {
   background-color: #f7f7f7;
 }
 
-.contact h3 {
+#contact h3 {
   font-size: 18px;
   font-weight: bold;
 }
 
-.contact a {
+#contact a {
   color: #00b0ff;
 }
 
-.contact p {
+#contact p {
   padding: 10px 0px;
   font-size: 14px;
 }
