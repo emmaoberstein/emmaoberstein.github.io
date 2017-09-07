@@ -7,9 +7,12 @@ function jumpToSection(event, targetSection){
       sectionString = "#about";
       break;
     case "s2":
+        sectionString = "#experience";
+        break;
+    case "s3":
       sectionString = "#portfolio";
       break;
-    case "s3":
+    case "s4":
       sectionString = "#contact";
       break;
     default:

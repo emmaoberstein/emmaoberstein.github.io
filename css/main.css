@@ -34,7 +34,7 @@ body {
   top: 100px;
 }
 
-.jumbotron h1 { 
+.jumbotron h1 {
   font-family: Avenir, sans-serif;
   font-weight: bold;
   font-size: 70px;
@@ -67,9 +67,31 @@ h2 {
 }
 
 #about img {
-    
+
   margin: auto;
   border-radius: 25%;
+}
+
+#experience .project{
+    margin: 0px;
+}
+
+#experience .position {
+    font-style: italic;
+    font-size: 10px;
+}
+
+#experience .row {
+  padding: 20px 0px;
+}
+
+#experience .thumbnail {
+    padding: 20px;
+    text-align: center;
+}
+
+#experience img {
+  border-radius: 0%;
 }
 
 #portfolio .row {
